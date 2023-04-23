@@ -1,0 +1,29 @@
+.autocompleteel,.autocompleteel .suggestionlist{
+      width: 300px;
+  }
+  .autocompleteel input[type=text]{
+    width: 100%;
+    padding: 5px;
+  }
+  .suggestionlist{
+    position: absolute;
+  }
+  .suggestionlist ul{
+    width: 100%;
+      background: whitesmoke;
+      list-style: none;
+      margin: 0;
+      padding: 5px;
+  } 
+  .suggestionlist ul li{
+      background: white;
+      padding: 4px;
+      margin-bottom: 1px;
+  }
+  .suggestionlist li:not(:last-child){
+    border-bottom: 1px solid #cecece;
+  }
+  .suggestionlist ul li:hover{
+      cursor: pointer;
+      background: whitesmoke;
+  }
